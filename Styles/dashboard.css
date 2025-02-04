@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  padding: 0px;
+  background-color: #f9f9f9;
+}
+
+.emp-reg-header {
+  display: flex;
+  justify-content: left;
+  padding: 20px;
+  background-color: #ffffff; /* White background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.emp-reg-icon {
+  display: flex;
+  align-items:center;
+  margin-left: 70px;
+  gap: 10px; /* Space between icon and text */
+}
+
+.emp-reg-logo-text {
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.emp-reg-logo-text .primary {
+  color: #b5c401; 
+  
+}
+
+.emp-reg-logo-text .secondary {
+  color: #6b7280; /* Gray color */
+}
+
+/* body */
+.emp-dash-main-cnt {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #FFFFFF;
+  border: 1px solid #F5F5F5;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 8px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+/* Header Section */
+.emp-dash-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.emp-dash-header i {
+  cursor: pointer;
+}
+
+.emp-dash-header h1 {
+  font-size: 24px;
+  margin: 0;
+  color: #42515F;
+}
+
+.emp-dash-header button {
+  background-color: #8BC34A;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.emp-dash-header button:hover {
+  background-color: #7CB342;
+}
+
+/* Table Section */
+.emp-dash-table-container {
+  margin-top: 10px;
+}
+
+.emp-dash-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.emp-dash-table th,
+.emp-dash-table td {
+  padding: 12px 16px;
+  text-align: left;
+}
+
+.emp-dash-table th {
+  background-color: #37474F;
+  color: white;
+  font-weight: normal;
+}
+
+.emp-dash-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Actions Section */
+.emp-dash-actions {
+  display: flex;
+  gap: 10px;
+}
+.emp-dash-actions i {
+  cursor: pointer;
+}
+
+.emp-dash-actions .delete {
+  color: #e53935;
+}
+
+.emp-dash-actions .edit {
+  color: #039BE5;
+}
+
+/* Tags Section */
+.emp-dash-tag {
+  display: inline-block;
+  background-color: #dff0d8;
+  color: #4CAF50;
+  border-radius: 12px;
+  padding: 5px 10px;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+/* Avatar Section */
+.emp-dash-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.emp-dash-name {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 250px;
+  font-size: 14px;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #82A70C;
+  box-shadow: 0 0 5px rgba(130, 167, 12, 0.5);
+}

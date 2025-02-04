@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/Styles/dashboard.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header class="emp-reg-header">
+        <div class="emp-reg-icon">
+            <a href="/Pages/form.html"><img src="/Assets/logo.jpeg" alt="Employee Payroll Icon" class="emp-reg-icon" /></a>
+            <div class="emp-reg-logo-text">
+                <span class="primary">EMPLOYEE</span>
+                <br> <span class="secondary">PAYROLL</span>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="emp-dash-main-cnt">
+        <div class="emp-dash-header">
+            <h1>Employee Details</h1>
+            <div class="emp-reg-header-actions">
+                <input type="text" class="search-input" id="searchInput" placeholder="Search by name...">
+                <button id="emp-dash-add"><a href="/Pages/form.html">Add User</a></button>
+            </div>
+        </div>
+
+        <div class="emp-dash-table-container">
+            <table class="emp-dash-table">
+                <thead>
+                    <tr>
+                        <th>NAME</th>
+                        <th>GENDER</th>
+                        <th>DEPARTMENT</th>
+                        <th>SALARY</th>
+                        <th>START DATE</th>
+                        <th>ACTIONS</th>
+                    </tr>
+                </thead>
+                <tbody id="employeeTableBody">
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="/JS/dashboardAPI.js"></script>
+</html>
