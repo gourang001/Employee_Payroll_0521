@@ -1,31 +1,7 @@
 {
   "EmpList": [
     {
-      "id": "60a1",
-      "name": "goni",
-      "profileImage": "/Assets/person4.jpeg",
-      "gender": "male",
-      "departments": [
-        "finance"
-      ],
-      "salary": "₹20,000",
-      "startDate": "02 12 2022",
-      "notes": "hi"
-    },
-    {
-      "id": "2e48",
-      "name": "Gourang Chauhan",
-      "profileImage": "/Assets/person4.jpeg",
-      "gender": "male",
-      "departments": [
-        "sales"
-      ],
-      "salary": "₹10,000",
-      "startDate": "02 11 2023",
-      "notes": "hi"
-    },
-    {
-      "name": "Nishu",
+      "name": "Nishu new",
       "profileImage": "/Assets/person1.jpeg",
       "gender": "female",
       "departments": [
@@ -37,7 +13,7 @@
       "id": "8d5f"
     },
     {
-      "name": "Manpreet",
+      "name": "Manpreet3",
       "profileImage": "/Assets/person1.jpeg",
       "gender": "female",
       "departments": [
@@ -47,6 +23,18 @@
       "startDate": "03 09 2023",
       "notes": "hii",
       "id": "492b"
+    },
+    {
+      "name": "Nandani new",
+      "profileImage": "/Assets/person1.jpeg",
+      "gender": "female",
+      "departments": [
+        "sales"
+      ],
+      "salary": "₹20,000",
+      "startDate": "15 10 2023",
+      "notes": "hi",
+      "id": "ac09"
     }
   ]
 }
